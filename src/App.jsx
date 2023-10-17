@@ -5,8 +5,9 @@ import { ItemListContainer } from './components/ItemListContainer';
 import { Card } from "./components/card";
 import { Layout } from "./components/layout/layout";
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import { Women } from './components/Women';
-import { Men } from './components/Men';
+import { Women } from './components/pages/Women';
+import { Men } from './components/pages/Men';
+import { ProductDetail } from './components/ProductDetail/ProductDetail';
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
           ))
         }
       </div>
+      <ProductDetail />
     <Layout />
     </BrowserRouter>
 

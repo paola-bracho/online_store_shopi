@@ -9,12 +9,12 @@ export const Navbar = () => {
         <nav className='bg-gray-800 flex justify-between items-center fixed z-10 top-0 w-full py-5 px-8 text-base'>
             <ul className='flex items-center gap-6 text-gray-200'>
 
-                <li className='font-bold text-xl'>Shopi</li>
+                <li><a className='font-bold text-xl' href="/">Shopi</a></li>
                 <li> <Link to="/">Home</Link></li>
                 <li> <Link to="/women">Women</Link></li>
                 <li> <Link to="/men">Men</Link></li>
-                <li> <Link to="#">Jewelery</Link></li>
-                <li> <Link to="#">Electronics</Link></li>
+                <li> <Link to="/Jewelery">Jewelery</Link></li>
+                <li> <Link to="/Electronics">Electronics</Link></li>
 
             </ul>
 
